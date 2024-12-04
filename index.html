@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="handleQuestion()">
+             <h1 class="heading">Quiz APP</h1>
+    <div class="instructions" id="instructionsSection">
+        <h2>Quiz Instructions</h2>
+        <p>Read the questions carefully and select the correct answers.<br>Each MCQ carries 1 mark.<br>The maximum time is 2 minutes. </p>
+        <button class="footer" onclick="startQuiz()">START QUIZ</button>
+    </div>
+    
+   
+    <div class="timer" id="timerSection" ">
+        
+        <h2>Remaining Time :</h2>
+        <span id="minutes"> 02 </span>:<span id="seconds"> 00</span>
+    </div>
+    
+
+    <div class="container" id="quizContainer" style="display: none;">
+
+        <div class="header">
+            <h2 id="questionElement"></h2>
+
+        </div>
+
+        <div class="body">
+            <ul id="optionElement">
+                <!-- <li></li>
+                <li></li>
+                <li></li>
+                <li></li> -->
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p> <span id="currentQuesCount">1</span> / <span id="totalCount">10</span> </p>
+            <button onclick="nextQuestion()" id="nextBtn" disabled>Next</button>
+        </div>
+
+
+        
+    </div>
+   
+        
+
+</div>
+
+<div id="resultContainer"  >
+    <!-- <h1>Correct Ans: 0</h1>
+    <h1>Wrong Ans: 0</h1>
+    <h1>Percentage: 0%</h1>    -->
+</div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
