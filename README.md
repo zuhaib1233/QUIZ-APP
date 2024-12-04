@@ -11,7 +11,7 @@ This is a simple **Quiz App** built using **HTML**, **CSS**, and **JavaScript**.
 - ## Live Demo
 
 You can view a live demo of this quiz app by clicking on the link below:
-[Live Demo]([https://zuhaib1233.github.io/QUIZ-APP/])
+[Live Demo](https://zuhaib1233.github.io/QUIZ-APP/)
 
 ## Features
 
